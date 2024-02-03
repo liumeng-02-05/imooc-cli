@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli/add",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "添加代码",
   "author": "liumeng <1808728912@qq.com>",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "lib"
   ],
   "dependencies": {
-    "@imooc-cli/utils": "^1.1.10",
+    "@imooc-cli/utils": "^1.1.11",
     "fs-extra": "^10.0.0",
     "npminstall": "^5.3.1",
     "path-exists": "^4.0.0",
