@@ -670,6 +670,7 @@ pnpm-debug.log*
         const uploadCmd = `scp -r ${templateFilePath} ${this.sshUser}@${this.sshIp}:${this.sshPath}`;
         log.verbose('uploadCmd', uploadCmd);
         const ret = require('child_process').execSync(uploadCmd);
+        console.log(ret.toString());
         log.success('模板文件上传成功');
         fse.emptyDirSync(ossTempDir);
       }
