@@ -13,7 +13,7 @@
     "lib"
   ],
   "dependencies": {
-    "@imooc-cli/utils": "file:../utils",
+    "@imooc-cli/utils": "^1.1.7",
     "fs-extra": "^10.0.0",
     "npminstall": "^5.3.1",
     "path-exists": "^4.0.0",
@@ -31,5 +31,6 @@
   },
   "bugs": {
     "url": "https://github.com/liumeng-02-05/imooc-cli/issues"
-  }
+  },
+  "gitHead": "dcec92eb53df5d2192ead06822a098039c693175"
 }

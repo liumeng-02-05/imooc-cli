@@ -46,5 +46,6 @@
     "terminal-link": "^2.1.1",
     "url-join": "^4.0.1",
     "user-home": "^2.0.0"
-  }
+  },
+  "gitHead": "dcec92eb53df5d2192ead06822a098039c693175"
 }

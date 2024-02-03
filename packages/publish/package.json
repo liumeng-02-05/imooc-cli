@@ -33,5 +33,6 @@
   },
   "scripts": {
     "test": "mocha __tests__/publish.test.js"
-  }
+  },
+  "gitHead": "dcec92eb53df5d2192ead06822a098039c693175"
 }
