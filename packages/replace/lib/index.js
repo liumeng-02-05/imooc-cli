@@ -9,7 +9,6 @@ const { log } = require('@imooc-cli/utils');
 
 async function replace(params) {
   try {
-    console.log(params);
     assert(params.ossAccessKey, 'oss accessKey不能为空！');
     assert(params.ossSecretKey, 'oss secretKey不能为空！');
     log.info('检查是否为打卡项目');

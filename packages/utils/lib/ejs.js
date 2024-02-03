@@ -37,7 +37,6 @@ function renderFile(filepath, options, diableFormatDotFile) {
   let filename = path.basename(filepath);
 
   if (filename.indexOf('.png') !== -1 || filename.indexOf('.jpg') !== -1) {
-    // console.log('renderFile:', filename);
     return Promise.resolve();
   }
 
