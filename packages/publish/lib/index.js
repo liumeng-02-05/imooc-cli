@@ -16,13 +16,10 @@ async function publish(options) {
     // 检查项目的基本信息
     const projectInfo = checkProjectInfo();
     const git = new Git(projectInfo, options);
-    console.log();
     log.info(colors.red('==='), colors.gray('git配置检查'), colors.red('==='));
     await git.prepare();
-    console.log();
     log.info(colors.red('==='), colors.gray('git自动提交'), colors.red('==='));
     await git.commit();
-    console.log();
     log.info(colors.red('==='), colors.gray('云构建+云发布'), colors.red('==='));
     await git.publish();
     const endTime = new Date().getTime();
