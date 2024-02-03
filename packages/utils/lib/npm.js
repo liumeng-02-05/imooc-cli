@@ -23,6 +23,7 @@ function getNpmInfo(npm, registry) {
   });
 }
 
+
 // 获取某个 npm 的最新版本号
 function getLatestVersion(npm, registry) {
   return getNpmInfo(npm, registry).then(function (data) {

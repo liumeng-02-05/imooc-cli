@@ -34,5 +34,5 @@
   "scripts": {
     "test": "mocha __tests__/publish.test.js"
   },
-  "gitHead": "32c8cc3442775ea7fc17bc5ee864f0dcd0f06e0b"
+  "gitHead": "52e8c8b32e412312188300dc5f27e05088df6578"
 }
